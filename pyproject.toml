@@ -47,7 +47,8 @@ dependencies = [
     "jupyterquiz (>=2.9.6.2,<3.0.0.0)",
     # tf-keras
     # tensorflow-model-optimization
-    "opencv-python (>=4.13.0.92,<5.0.0.0)"
+    "opencv-python (>=4.13.0.92,<5.0.0.0)",
+    "jupyterlab-spreadsheet-editor (>=0.7.2,<0.8.0)"
 ]
 
 

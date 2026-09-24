@@ -5,7 +5,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.17.3
+      jupytext_version: 1.19.5
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -17,7 +17,8 @@ jupyter:
 
 Машинное обучение и анализ данных
 
-МГТУ им. Н.Э. Баумана
+- Московский государственный технический университет им. Н.Э. Баумана
+- Московский политехнический университет
 
 Красников Александр Сергеевич
 

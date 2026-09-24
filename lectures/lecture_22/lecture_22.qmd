@@ -4,7 +4,9 @@ subtitle: Машинное обучение и анализ данных
 author: "Красников А. С."
 date: 2026-03-24
 date-modified: last-modified
-institute: МГТУ им. Н.Э. Баумана
+institute:
+  - Московский государственный технический университет им. Н.Э. Баумана
+  - Московский политехнический университет
 format: 
   revealjs:
     #incremental: true  

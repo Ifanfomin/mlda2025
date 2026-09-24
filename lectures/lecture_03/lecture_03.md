@@ -5,7 +5,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.17.3
+      jupytext_version: 1.19.5
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -17,7 +17,8 @@ jupyter:
 
 Машинное обучение и анализ данных
 
-МГТУ им. Н.Э. Баумана
+- Московский государственный технический университет им. Н.Э. Баумана
+- Московский политехнический университет
 
 Красников Александр Сергеевич
 
@@ -542,7 +543,7 @@ X_train_clean = winsorizer.fit_transform(X_train)
 5.  Используйте специализированные библиотеки (например, `feature-engine`, `scikit-learn`), чтобы автоматизировать процесс.
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": "slide"} jp-MarkdownHeadingCollapsed=true -->
+<!-- #region editable=true slideshow={"slide_type": "slide"} -->
 ## Заполнение пропусков в данных (Missing Data Imputation)
 
 **Пропущенные значения (Missing Values)** — отсутствие данных для некоторых признаков у отдельных объектов.
