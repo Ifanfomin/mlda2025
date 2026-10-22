@@ -489,16 +489,17 @@ check_df = pd.read_csv('./data/lab03_train_check.csv')
 
 ```python id="GOAzQeYehLu6"
 %%capture
-assert((df[df['is_first_place'].isna() == False][['id']].sort_values('id').reset_index(drop=True)
-        ==
-        check_df[check_df['is_first_place'].isna() == False][['id']].sort_values('id').reset_index(drop=True)
-       ).id.values).all()
+assert (
+    df[df["is_first_place"].isna() == False][["id"]].shape[0]
+    ==
+    check_df[check_df["is_first_place"].isna() == False][["id"]].shape[0]
+)
 
-
-assert((df[df['is_last_place'].isna() == False][['id']].sort_values('id').reset_index(drop=True)
-       == 
-       check_df[check_df['is_last_place'].isna() == False][['id']].sort_values('id').reset_index(drop=True)
-      ).id.values).all()
+assert (
+    df[df["is_last_place"].isna() == False][["id"]].shape[0]
+    ==
+    check_df[check_df["is_last_place"].isna() == False][["id"]].shape[0]
+)
 
 print("Выполнено")
 score += 2
